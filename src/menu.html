@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--
+* CoreUI - Free Bootstrap Admin Template
+* @version v2.1.5
+* @link https://coreui.io
+* Copyright (c) 2018 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://coreui.io/license)
+-->
+
+<html lang="en">
+
+<head>
+  <base href="./">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+  <meta name="author" content="Łukasz Holeczek">
+  <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+  <title>CoreUI Free Bootstrap Admin Template</title>
+  <!-- Icons-->
+  <link href="node_modules/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
+  <link href="node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+  <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <!-- Main styles for this application-->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="vendors/pace-progress/css/pace.min.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics-->
+  <script src="js/menu.js"></script>
+</head>
+
+<body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+  <header class="app-header navbar">
+    <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a id="logo" class="navbar-brand" href="menu.html">
+      <img class="navbar-brand-full" src="img/brand/sabonis.jpg" width="120" height="30" alt="CoreUI Logo">
+    </a>
+    <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="nav navbar-nav d-md-down-none">
+
+    </ul>
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+          <img class="img-avatar" src="img/avatars/user.png" alt="admin@bootstrapmaster.com">
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <div class="dropdown-header text-center">
+            <strong>Cuenta</strong>
+          </div>
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-bell-o"></i> Actualizaciones
+            <span class="badge badge-info">42</span>
+          </a>
+          <div class="dropdown-header text-center">
+            <strong>Configuraciones</strong>
+          </div>
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-user"></i> Perfil</a>
+          <a class="dropdown-item" href="#">
+            <i class="fa fa-wrench"></i> Configuraciones</a>
+
+          <div class="divider"></div>
+          <a id="logout" class="dropdown-item" href="index.html">
+            <i class="fa fa-lock"></i> Salir</a>
+        </div>
+      </li>
+    </ul>
+  </header>
+  <div class="app-body">
+    <div class="sidebar">
+      <nav class="sidebar-nav">
+        <ul class="nav">
+          <li class="nav-item">
+            <a id="sb0.1" class="nav-link" href="menu.html">
+              <i class="nav-icon icon-speedometer"></i> Menu Principal
+            </a>
+          </li>
+          <li class="nav-title">Usuario</li>
+          <li class="nav-item nav-dropdown">
+            <a id="registros" class="nav-link nav-dropdown-toggle" href="#">
+              <i class="nav-icon icon-puzzle"></i>Registros</a>
+            <ul class="nav-dropdown-items">
+              <li class="nav-item">
+                <a id="sb1.1" class="nav-link" href="compra.html">
+                  <i class="nav-icon icon-puzzle"></i> Compra</a>
+              </li>
+              <li class="nav-item">
+                <a id="sb1.2" class="nav-link" href="consignacion.hmtl">
+                  <i class="nav-icon icon-puzzle"></i> Consignacion</a>
+              </li>
+              <li class="nav-item">
+                <a id="sb1.3" class="nav-link" href="egreso.html">
+                  <i class="nav-icon icon-puzzle"></i> Egreso</a>
+              </li>
+              <li class="nav-item">
+                <a id="sb1.4" class="nav-link" href="venta.html">
+                  <i class="nav-icon icon-puzzle"></i> Venta</a>
+            </ul>
+          </li>
+          <li class="nav-item nav-dropdown">
+            <a class="nav-link nav-dropdown-toggle" href="#">
+              <i class="nav-icon icon-puzzle"></i>Administracion</a>
+            <ul class="nav-dropdown-items">
+              <li class="nav-item">
+                <a id="sb2.1" class="nav-link" href="inventario.html">
+                  <i class="nav-icon icon-puzzle"></i> Inventario</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item nav-dropdown">
+            <a class="nav-link nav-dropdown-toggle" href="#">
+              <i class="nav-icon icon-puzzle"></i>Reportes</a>
+            <ul class="nav-dropdown-items">
+              <li class="nav-item">
+                <a id="sb3.1" class="nav-link" href="ventasDia.html">
+                  <i class="nav-icon icon-puzzle"></i>Ventas del Dia</a>
+              </li>
+              <li class="nav-item">
+                <a id="sb3.2" class="nav-link" href="historial.html">
+                  <i class="nav-icon icon-puzzle"></i> Historial</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item nav-dropdown">
+            <a id="administrar usuarios" class="nav-link nav-dropdown-toggle" href="#">
+              <i class="nav-icon icon-puzzle"></i>Usuarios</a>
+            <ul class="nav-dropdown-items">
+              <li class="nav-item">
+                <a id="sb3.1" class="nav-link" href="signUp.html">
+                  <i class="nav-icon icon-puzzle"></i>Crear cuenta</a>
+              </li>
+              <li class="nav-item">
+                <a id="sb3.2" class="nav-link" href="listaUsuarios.html">
+                  <i class="nav-icon icon-puzzle"></i>Lista Usuarios</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+    </div>
+  </div>
+  <footer class="app-footer">
+    <div>
+      <a href="https://coreui.io">Turing_Creative</a>
+    </div>
+  </footer>
+  <!-- CoreUI and necessary plugins-->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/pace-progress/pace.min.js"></script>
+  <script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+  <script src="node_modules/@coreui/coreui/dist/js/coreui.min.js"></script>
+  <!-- Plugins and scripts required by this view-->
+
+
+</body>
+
+</html>
